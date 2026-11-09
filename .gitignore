@@ -1,0 +1,21 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Local data
+data/
+
+# IDE and OS
+.vscode/
+.DS_Store
+
+# Temporary files
+app_backup.py
